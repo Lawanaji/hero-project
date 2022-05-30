@@ -1,0 +1,105 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: Epilogue;
+  align-items: center;
+}
+// .container {
+//   align-items: center;
+//   width: 1000px;
+//   margin: 50px;
+//   justify-items: center;
+// }
+body {
+  padding: 10px;
+  background: gray Medium hsl(0, 0%, 41%);
+  justify-content: center;
+  align-items: center;
+
+  background: #fafafa;
+  margin-right: 40px;
+  margin-left: 40px;
+  font-family: sans-serif;
+}
+.nav-bar {
+  display: inline;
+  color: black;
+  ul li a {
+    margin-left: 500px;
+    display: inline;
+    text-decoration: none;
+    gap: 20px;
+    justify-content: space-around;
+  }
+}
+
+.logo {
+  text-decoration: none;
+  display: flex;
+  color: black;
+  margin-left: 20px;
+  a {
+    margin-left: 50px;
+    outline: none;
+    text-decoration: none;
+    color: black;
+  }
+}
+.maker {
+  display: flex;
+  justify-content: space-between;
+  p {
+    font-size: 20;
+  }
+}
+.maker img {
+  width: 400px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.remote {
+  display: block;
+  margin-top: 80px;
+  margin-left: 120px;
+  p {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 70px;
+    color: #141414;
+  }
+}
+.client {
+  margin-left: 100px;
+  img {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+}
+.common-btn {
+  background: black;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px 10px;
+  margin-top: 50px;
+  width: 100px;
+}
+.btn {
+  background: transparent;
+  outline: none;
+  border: 2px solid rgb(177, 173, 173);
+  font-weight: bold;
+  cursor: pointer;
+  color: grey;
+  width: 100px;
+  border-radius: 10px 10px;
+  height: 30px;
+}
+.attribution {
+  text-decoration: none;
+}
+.attribution a {
+  text-decoration: none;
+  margin-top: 20px;
+}

@@ -1,0 +1,128 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: Epilogue;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  padding: 10px;
+  background: gray Medium dimgray;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fafafa;
+  margin-right: 40px;
+  margin-left: 40px;
+  font-family: sans-serif;
+}
+
+.nav-bar {
+  display: inline;
+  color: black;
+}
+
+.nav-bar ul li a {
+  margin-left: 500px;
+  display: inline;
+  text-decoration: none;
+  gap: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.logo {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  margin-left: 20px;
+}
+
+.logo a {
+  margin-left: 50px;
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+
+.maker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.maker p {
+  font-size: 20;
+}
+
+.maker img {
+  width: 400px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+.remote {
+  display: block;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+
+.remote p {
+  font-size: 18px;
+}
+
+.remote h1 {
+  font-size: 70px;
+  color: #141414;
+}
+
+.client {
+  margin-left: 100px;
+}
+
+.client img {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.common-btn {
+  background: black;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px 10px;
+  margin-top: 50px;
+  width: 100px;
+}
+
+.btn {
+  background: transparent;
+  outline: none;
+  border: 2px solid #b1adad;
+  font-weight: bold;
+  cursor: pointer;
+  color: grey;
+  width: 100px;
+  border-radius: 10px 10px;
+  height: 30px;
+}
+
+.attribution {
+  text-decoration: none;
+}
+
+.attribution a {
+  text-decoration: none;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=index.css.map */
